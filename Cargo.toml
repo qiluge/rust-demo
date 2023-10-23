@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ethers = { git = "https://github.com/qiluge/ethers-rs.git", features = ["ws", "ipc", "rustls"], optional = true }
+ethers = { version="2.0.10", features = ["ws", "ipc", "rustls"], optional = true }
